@@ -55,7 +55,7 @@ def run():
 
     llm = LLM(config)
     dialogue = [
-        {"role": "system", "content": "调皮一点回答"}
+        {"role": "system", "content": "调皮点回答"}
     ]
 
     print("输入内容开始对话，输入 ':wq' 退出。")
